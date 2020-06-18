@@ -1,0 +1,15 @@
+<custom-component>
+  <div></div>
+
+  <script>
+    import { FC } from './app.tsx'
+    import { render } from 'preact'
+
+    export default {
+      onMounted() {
+        const elem = this.$('div')
+        render(FC, elem)
+      }
+    }
+  </script>
+</custom-component>
