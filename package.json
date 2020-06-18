@@ -1,0 +1,19 @@
+{
+  "name": "bt6AA",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@riotjs/compiler": "^4.9.2",
+    "@riotjs/parcel-plugin-riot": "^4.0.1",
+    "preact": "^10.4.4",
+    "riot": "^4.13.2"
+  }
+}
